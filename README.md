@@ -1,2 +1,0 @@
-# datejsx
-Created with CodeSandbox
