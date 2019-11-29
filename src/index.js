@@ -17,10 +17,10 @@ let stylehour = {
   color: "red"
 };
 
-if (hours <= 12) {
+if (hours < 12) {
   greeting += " Morning";
   stylehour.color = "red";
-} else if (hours > 12 && hours < 18) {
+} else if (hours < 18) {
   greeting += " Afternoon";
   stylehour.color = "green";
 } else {
