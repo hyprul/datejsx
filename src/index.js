@@ -30,7 +30,9 @@ if (hours < 12) {
 
 ReactDOM.render(
   <div>
-    <h1 style={stylehour}>{greeting}</h1>
+    <h1 className="heading" style={stylehour}>
+      {greeting}
+    </h1>
   </div>,
   document.getElementById("root")
 );
